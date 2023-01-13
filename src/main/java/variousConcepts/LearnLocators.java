@@ -54,7 +54,7 @@ public class LearnLocators {
 		
 	}
 
-@After
+    @After
 	public void tearDown() {
 		driver.close();
 		driver.quit();
